@@ -1,0 +1,17 @@
+# Never publish proprietary payloads or local extracts
+*.dmg
+*.asar
+windows_app/
+windows_app_*/
+extracted_app/
+codex_extract/
+
+# Local runtime/build artifacts
+node_modules/
+*.log
+*.tmp
+
+# Secrets/env
+.env
+.env.*
+
